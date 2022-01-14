@@ -1,0 +1,53 @@
+.header {
+  background-color: #202020;
+}
+.header img {
+  width: 30%;
+  margin: 1vw;
+}
+
+.header hr {
+  margin: 0;
+}
+
+.header-content {
+  display: flex;
+}
+.icon {
+  width: 30%;
+}
+.buttons {
+  width: 30%;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.buttons p {
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+  color: #ed1d24;
+}
+.buttons a:visited {
+  color: #d3d3d3;
+}
+
+.active {
+  background-color: #d3d3d3;
+}
+@media screen and (max-width: 1100px) {
+  .header img {
+    margin: 3vw;
+    width: 70%;
+  }
+  .buttons {
+    margin-left: 4vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .buttons {
+    margin-left: 20vw;
+    font-size: 1rem;
+  }
+}

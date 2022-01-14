@@ -1,0 +1,8 @@
+.back {
+  font-size: 2rem;
+  font-weight: 700;
+  display: flex;
+  align-self: center;
+  margin-top: 3%;
+  margin-left: 20%;
+}
