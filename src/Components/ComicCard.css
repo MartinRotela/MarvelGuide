@@ -1,0 +1,28 @@
+.comic-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1vw;
+  padding: 1.5vw;
+  background: #151515;
+  color: #e62429;
+  border-radius: 2%;
+  max-width: min-content;
+}
+.comic-card img {
+  width: 14vw;
+  height: 14vw;
+}
+
+.comic-card p {
+  margin-bottom: none;
+  margin-top: 3vh;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .comic-card img {
+    width: 20vw;
+    height: 15vh;
+  }
+}

@@ -1,0 +1,6 @@
+@media screen and (max-width: 800px) {
+  .page-comic img {
+    width: 80vw;
+    height: 60vh;
+  }
+}

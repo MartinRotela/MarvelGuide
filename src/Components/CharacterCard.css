@@ -1,0 +1,28 @@
+.character-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1vw;
+  padding: 1.5vw;
+  background: #151515;
+  color: #e62429;
+  border-radius: 2%;
+  max-width: min-content;
+}
+.character-card img {
+  width: 14vw;
+  height: 14vw;
+}
+
+.character-card p {
+  margin-bottom: none;
+  margin-top: 3vh;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .character-card img {
+    width: 20vw;
+    height: 20vw;
+  }
+}
